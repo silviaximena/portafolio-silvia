@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import Navegacion from './components/Navegacion';
+import Introduccion from './components/Introduccion';
+// Los datos personales se leen desde un archivo JSON
+import perfil from './data/perfil.json';
+
+// Secciones del menú (se irán llenando en los próximos pasos)
+const secciones = [
+  { id: 'introduccion', titulo: 'Introducción' },
+  { id: 'proyectos', titulo: 'Proyectos' },
+  { id: 'noticias', titulo: 'Noticias' },
+  { id: 'contacto', titulo: 'Contacto' },
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navegacion nombre={perfil.nombre} secciones={secciones} />
+      <main>
+        <Introduccion
+          nombre={perfil.nombre}
+          titulo={perfil.titulo}
+          biografia={perfil.biografia}
+          // PUBLIC_URL hace que la foto funcione también en GitHub Pages
+          foto={`${process.env.PUBLIC_URL}/${perfil.foto}`}
+          github={perfil.github}
+        />
+      </main>
+    </>
   );
 }
 

@@ -81,3 +81,97 @@ a:focus-visible,
   outline: 3px solid var(--dorado);
   outline-offset: 2px;
 }
+/* ===== Secciones generales ===== */
+.seccion {
+  padding: 70px 0;
+}
+
+/* Título con una línea dorada debajo */
+.titulo-seccion {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.titulo-seccion::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: var(--dorado);
+}
+
+/* ===== Tarjetas de proyecto ===== */
+.tarjeta-proyecto {
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Al pasar el mouse, la tarjeta sube un poquito */
+.tarjeta-proyecto:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.tarjeta-proyecto .card-img-top {
+  height: 190px;
+  object-fit: cover;
+  background-color: var(--negro);
+}
+
+.tarjeta-proyecto .card-title {
+  font-size: 1.2rem;
+}
+
+/* Etiquetas de tecnologías */
+.etiqueta-tecnologia {
+  background-color: var(--negro) !important;
+  color: var(--dorado);
+  font-weight: 500;
+}
+
+/* Filtro centrado */
+.filtro-tecnologias {
+  text-align: center;
+}
+/* ===== Noticias ===== */
+/* Fondo gris claro para separar visualmente esta sección */
+.seccion-gris {
+  background-color: #f5f3ee;
+}
+
+.subtitulo-noticias {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: 4px solid var(--dorado);
+}
+
+.noticia {
+  border: none;
+  border-radius: 8px;
+}
+
+.noticia .card-title {
+  font-size: 1.05rem;
+}
+
+.noticia-fecha {
+  font-size: 0.85rem;
+  color: #777777;
+}
+
+.noticia-boton {
+  color: var(--negro);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.noticia-boton:hover,
+.noticia-boton:focus {
+  color: #b8860b;
+}

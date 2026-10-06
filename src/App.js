@@ -1,6 +1,8 @@
 import './App.css';
 import Navegacion from './components/Navegacion';
 import Introduccion from './components/Introduccion';
+import Proyectos from './components/Proyectos';
+import Noticias from './components/Noticias';
 // Los datos personales se leen desde un archivo JSON
 import perfil from './data/perfil.json';
 
@@ -25,6 +27,8 @@ function App() {
           foto={`${process.env.PUBLIC_URL}/${perfil.foto}`}
           github={perfil.github}
         />
+        <Proyectos />
+        <Noticias />
       </main>
     </>
   );

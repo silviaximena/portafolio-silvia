@@ -3,10 +3,12 @@ import Navegacion from './components/Navegacion';
 import Introduccion from './components/Introduccion';
 import Proyectos from './components/Proyectos';
 import Noticias from './components/Noticias';
+import Contacto from './components/Contacto';
+import Footer from './components/Footer';
 // Los datos personales se leen desde un archivo JSON
 import perfil from './data/perfil.json';
 
-// Secciones del menú (se irán llenando en los próximos pasos)
+// Secciones del menú de navegación
 const secciones = [
   { id: 'introduccion', titulo: 'Introducción' },
   { id: 'proyectos', titulo: 'Proyectos' },
@@ -29,7 +31,9 @@ function App() {
         />
         <Proyectos />
         <Noticias />
+        <Contacto />
       </main>
+      <Footer nombre={perfil.nombre} github={perfil.github} />
     </>
   );
 }

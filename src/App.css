@@ -175,3 +175,21 @@ a:focus-visible,
 .noticia-boton:focus {
   color: #b8860b;
 }
+/* ===== Footer ===== */
+.pie-pagina {
+  background-color: var(--negro);
+  color: var(--gris-claro);
+  padding: 30px 0;
+  font-size: 0.9rem;
+}
+
+.pie-pagina a {
+  color: var(--dorado);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.pie-pagina a:hover,
+.pie-pagina a:focus {
+  text-decoration: underline;
+}

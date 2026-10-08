@@ -1,0 +1,46 @@
+{
+  "secciones": [
+    {
+      "id": "mis-novedades",
+      "titulo": "Novedades de mis proyectos",
+      "noticias": [
+        {
+          "id": 1,
+          "titulo": "Comencé mi portafolio personal en React",
+          "fecha": "2026-10-06",
+          "contenido": "Empecé a construir este portafolio con React y Bootstrap. Los proyectos y las noticias se cargan desde archivos JSON, y cada sección es un componente reutilizable que recibe sus datos por props."
+        },
+        {
+          "id": 2,
+          "titulo": "La Biblioteca Municipal ya está en React",
+          "fecha": "2026-10-05",
+          "contenido": "Terminé de migrar la Biblioteca Municipal desde HTML y JavaScript a React. Separé los datos en un archivo con funciones CRUD y mejoré el panel de administración para que se vea bien en celulares."
+        },
+        {
+          "id": 3,
+          "titulo": "Primeras pruebas unitarias con Jasmine y Karma",
+          "fecha": "2026-09-29",
+          "contenido": "Configuré un entorno de pruebas con Jest, Jasmine y Karma. Aprendí a probar el renderizado de componentes, a simular clics y a usar mocks para no depender de servicios externos."
+        }
+      ]
+    },
+    {
+      "id": "tecnologia",
+      "titulo": "Noticias de tecnología",
+      "noticias": [
+        {
+          "id": 4,
+          "titulo": "React 19 se publica como versión estable",
+          "fecha": "2024-12-05",
+          "contenido": "El equipo de React lanzó la versión 19, que trae mejoras para manejar formularios y acciones asíncronas, además de nuevos hooks que simplifican el trabajo con datos que se están cargando."
+        },
+        {
+          "id": 5,
+          "titulo": "Bootstrap 5.3 incorpora modos de color",
+          "fecha": "2023-05-30",
+          "contenido": "Con la versión 5.3, Bootstrap permite cambiar entre modo claro y modo oscuro usando un solo atributo en el HTML, gracias a sus nuevas variables de color en CSS."
+        }
+      ]
+    }
+  ]
+}

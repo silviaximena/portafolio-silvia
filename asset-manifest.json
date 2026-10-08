@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portafolio-silvia/static/css/main.c0d39443.css",
+    "main.js": "/portafolio-silvia/static/js/main.7d1e479a.js",
+    "index.html": "/portafolio-silvia/index.html",
+    "main.c0d39443.css.map": "/portafolio-silvia/static/css/main.c0d39443.css.map",
+    "main.7d1e479a.js.map": "/portafolio-silvia/static/js/main.7d1e479a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0d39443.css",
+    "static/js/main.7d1e479a.js"
+  ]
+}

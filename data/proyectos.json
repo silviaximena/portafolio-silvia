@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "titulo": "Biblioteca Municipal (React)",
+    "descripcion": "Sistema de préstamos y reservas con tres roles (estudiante, bibliotecario y administrador), catálogo por categorías, perfil de usuario y panel de administración.",
+    "tecnologias": ["React", "React Router", "Bootstrap", "localStorage"],
+    "imagen": "img/proyectos/biblioteca-react.jpg",
+    "enlace": "https://github.com/silviaximena/biblioteca-react"
+  },
+  {
+    "id": 2,
+    "titulo": "Biblioteca Municipal (HTML)",
+    "descripcion": "Primera versión de la biblioteca: nueve páginas con formularios validados en JavaScript, carrito de préstamos y panel de administrador.",
+    "tecnologias": ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+    "imagen": "img/proyectos/biblioteca-html.jpg",
+    "enlace": "https://github.com/silviaximena/biblioteca-dsy1104"
+  },
+  {
+    "id": 3,
+    "titulo": "CapiSeguro",
+    "descripcion": "Sitio de una aseguradora donde el formulario cambia según el tipo de seguro (auto, hogar o escolar) usando rutas dinámicas.",
+    "tecnologias": ["React", "React Router", "Bootstrap"],
+    "imagen": "img/proyectos/capiseguro.jpg",
+    "enlace": "https://github.com/silviaximena"
+  },
+  {
+    "id": 4,
+    "titulo": "PetLandia",
+    "descripcion": "Página de una tienda de mascotas construida con HTML semántico: secciones, listas, imágenes y enlaces de referencia.",
+    "tecnologias": ["HTML5"],
+    "imagen": "img/proyectos/petlandia.jpg",
+    "enlace": "https://github.com/silviaximena"
+  }
+]

@@ -48,7 +48,7 @@ config.set({
         // Variables que Create React App define normalmente y que usan los componentes
         new webpack.DefinePlugin({
         'process.env.PUBLIC_URL': JSON.stringify(''),
-    'process.env.NODE_ENV': JSON.stringify('test'),
+    
         }),
     ],
     },
